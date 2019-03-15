@@ -1,9 +1,9 @@
 # This Dockerfile is used to build an headles vnc image based on Ubuntu
 
-FROM ubuntu:18.04
+FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
 
 MAINTAINER Tyson Lee Swetnam "tswetnam@cyverse.org"
-ENV REFRESHED_AT 2019-03-13
+ENV REFRESHED_AT 2019-03-15
 
 LABEL io.k8s.description="Headless VNC Container with Xfce window manager, firefox and chromium" \
       io.k8s.display-name="Headless VNC Container based on Ubuntu" \
