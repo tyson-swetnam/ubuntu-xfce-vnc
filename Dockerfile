@@ -1,5 +1,4 @@
 # This Dockerfile is used to build an headles vnc image based on Ubuntu
-
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
 
 MAINTAINER Tyson Lee Swetnam "tswetnam@cyverse.org"
