@@ -4,12 +4,6 @@ FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
 MAINTAINER Tyson Lee Swetnam "tswetnam@cyverse.org"
 ENV REFRESHED_AT 2019-03-15
 
-LABEL io.k8s.description="Headless VNC Container with Xfce window manager, firefox and chromium" \
-      io.k8s.display-name="Headless VNC Container based on Ubuntu" \
-      io.openshift.expose-services="6901:http,5901:xvnc" \
-      io.openshift.tags="vnc, ubuntu, xfce" \
-      io.openshift.non-scalable=true
-
 ## Connection ports for controlling the UI:
 # VNC port:5901
 # noVNC webport, connect via http://IP:6901/?password=vncpassword
