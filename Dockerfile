@@ -2,7 +2,7 @@
 FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu18.04
 
 MAINTAINER Tyson Lee Swetnam "tswetnam@cyverse.org"
-ENV REFRESHED_AT 2019-03-15
+ENV REFRESHED_AT 2019-10-27
 
 ## Connection ports for controlling the UI:
 # VNC port:5901
